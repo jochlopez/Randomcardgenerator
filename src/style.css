@@ -1,1 +1,28 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: lightblue;
+}
+.card {
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.number {
+  position: absolute;
+  top: 150px;
+  right: 125px;
+}
+.symbol-up {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.symbol-down {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  transform: rotate(180deg);
+}
