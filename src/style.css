@@ -13,16 +13,54 @@ body {
 .number {
   position: absolute;
   top: 150px;
-  right: 125px;
+  right: 114px;
+  /*text-align: center;*/
+  font-size: 60px;
+  font-family: fantasy;
 }
-.symbol-up {
+.symbol {
+  font-size: 70px;
+}
+
+#up {
   position: absolute;
-  top: 5px;
+  top: 0px;
   left: 5px;
 }
-.symbol-down {
+#down {
+  position: absolute;
+  top: 300px;
+  right: 5px;
+  transform: rotate(180deg);
+}
+/*.symbol-down {
   position: absolute;
   top: 5px;
   right: 5px;
   transform: rotate(180deg);
+}*/
+.mt-5 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+
+.heart::before {
+  content: "♥";
+  color: red;
+}
+
+.spade::before {
+  content: "♠";
+  color: black;
+}
+
+.leaf::before {
+  content: "♣";
+  color: green;
+}
+
+.diamond::before {
+  content: "♦";
+  color: cyan;
+}
+
+/*♦ ♥ ♠ ♣*/
